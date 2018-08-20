@@ -1,0 +1,75 @@
+.regist-form{
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+.regist-form{
+	width: 475px;
+	margin: 0px auto;
+}
+#name {
+	float: right;
+	height: 19px;
+	line-height: 19px;
+	padding : 0px 5px;
+	width: 287px;
+	border: 1px solid #e0e0e0;
+}
+#sname {
+	float: right;
+	height: 19px;
+	line-height: 19px;
+	padding : 0px 5px;
+	width: 287px;
+	border: 1px solid #e0e0e0;
+}
+#email {
+	float: right;
+	height: 19px;
+	line-height: 19px;
+	padding : 0px 5px;
+	width: 287px;
+	border: 1px solid #e0e0e0;
+}
+#curse {
+	height: 19px;
+	line-height: 19px;
+	padding : 0px 5px;
+	border: 1px solid #e0e0e0;
+}
+
+.regist-form textarea{
+	height: 90px;
+	line-height: 16px;
+	font-size: 16px;
+	padding: 0px 5px;
+	width: 475px;
+	border: 1px solid #e0e0e0;	
+}
+.regist-form input[type=submit]{
+	padding: 5px; 
+	width: 25%;
+	line-height: 10ps;
+	background: #e0e0e0;
+	color: black;
+}
+.regist-form input[type=submit]:hover{
+	background: #b2b2b2;
+}
+.regist-form input[type=reset]{ 
+	padding: 5px; 
+	width: 25%;
+	line-height: 10ps;
+	background: #e0e0e0;
+	color: black;
+}
+.regist-form input[type=reset]:hover{
+	background: #b2b2b2;
+}
+h1{
+	font-size: 35px;
+	text-align: center;
+}
+*{
+	font-family: arial;
+	font-size: 16px;
+}

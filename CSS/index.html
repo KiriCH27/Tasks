@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>HOVER FOR DETAILS</title>
+<head>
+</head>
+<body>
+<div class = "flower">
+<img src = "img.jpg" width="500">
+<p>Раздосадованные инвесторы Tesla подали в суд на Маска</p>
+</div>
+<h2>
+<a>
+<span class="a">HOVER FOR DETAILS</span>
+<span class="b">Несколько инвесторов подали в суд на Илона Маска в связи с его недавним сенсационным заявлением о планах скупить у акционеров ценные бумаги Tesla и превратить компанию в частную.</span>
+</a>
+</h2>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+div{
+position:absolute;
+max-width: 500px;
+padding-bottom:10px;
+outline: 2px solid #707070;
+}
+.flower p{
+text-align: center;
+margin-top: 5px;
+margin-bottom: 0px;
+font: normal 16px Open Sans;
+color: #707070;
+}
+h2 {
+position: absolute;
+top: 300px;
+left: 8;
+width: 100%;
+color: #ffc700;
+}
+h2 span {
+font			: bold 24px/45px Playfair;
+letter-spacing	: -1px;
+background		: rgba(0, 0, 0, 0.7);
+padding			: 10px;
+}
+a:hover .b{
+text-align: center;
+display: inline;
+font: normal 20px Open Sans;
+text-indent: 30px;
+position: absolute;
+top: -312px;
+left: 0px;
+width: 480px;
+height: 356px;
+text-decoration: none;
+color: #ffc700;
+background: rgba(0, 0, 0, 0.7);
+}
+a .b {
+display: none;
+}
+a:hover .a {
+display: none;
+} 
+</style>
+</body>
+</html>

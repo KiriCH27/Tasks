@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Регистрация пользователя</title>
+<link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1> Регистрация пользователя </h1>
+<form action="otvet.html" method="post" class='regist-form'>
+<p>
+<label>Имя</label>
+<input id="name" type="text" name="name" placeholder="Укажите Имя" required>
+</p>
+<p>
+<label>Фамилия</label>
+<input id="sname" type="text" name="sname" placeholder="Укажите Фамилию" required>
+</p>
+<p>
+<label>Почта</label>
+<input id="email" type="text" name="email" placeholder="Укажите e-mail" required>
+</p>
+<p><label>Курсы:</label></p>
+<p>
+<input id="curse" type="radio" name="drupal" required>
+<label>Drupal 7</label>
+</p>
+<p>
+<input id="curse" type="radio" name="drupal" required>
+<label>Drupal 8</label>
+</p>
+<p>
+<label>Дополнительная информация </label>
+<textarea name="add" type="text"/></textarea>
+</p>
+<p>
+<input type="submit" value="Отправить">
+<input type="reset" value="Очистить">
+</p>
+</form>
+</body>
+</html>

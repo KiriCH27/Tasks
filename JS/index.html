@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<form id="msform">
+	<ul id="progressbar">
+		<li class="active">Имя</li>
+		<li>Фамилия</li>
+		<li>Email</li>
+	</ul>
+	<fieldset>
+		<h2 class="fs-title">Введите Ваше имя</h2>
+		<h3 class="fs-subtitle">Шаг 1</h3>
+		<input type="text" name="name" required placeholder="Ваше имя"/>
+		<input type="button" name="next" class="next action-button" value="Далее"/>
+	</fieldset>
+	<fieldset>
+		<h2 class="fs-title">Введите Вашу фамилию</h2>
+		<h3 class="fs-subtitle">Шаг 2</h3>
+		<input type="text" name="sname" placeholder="Ваша Фамилия"/>
+		<input type="button" name="previous" class="previous action-button" value="Назад" />
+		<input type="button" name="next" class="next action-button" value="Далее" />
+	</fieldset>
+	<fieldset>
+		<h2 class="fs-title">Введите Ваш email</h2>
+		<h3 class="fs-subtitle">Шаг 3</h3>
+		<input type="email" name="email" required placeholder="Email"/>
+		<input type="button" name="previous" class="previous action-button" value="Назад" />
+		<input type="submit" name="submit" class="submit action-button" value="Завершить" />
+	</fieldset>
+</form>
+
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://thecodeplayer.com/uploads/js/jquery.easing.min.js'></script>
+	<script src="js/index.js"></script>
+	
+  </body>
+</html>
